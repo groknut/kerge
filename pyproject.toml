@@ -1,0 +1,17 @@
+[project]
+name = "kerge"
+version = "0.1.0"
+description = "A program for writing bin files to devices (m5stack stickC plus 2)"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "esptool>=5.1.0",
+    "pyserial>=3.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/groknut/kerge"
+Documentation = "https://github.com/groknut/kerge"
+Repository = "https://github.com/groknut/kerge"
+Changelog = "https://github.com/groknut/kerge/releases"
